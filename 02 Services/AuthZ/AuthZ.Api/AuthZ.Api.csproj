@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>d7174a8e-b360-4132-a3f6-457a9b68198d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Logs\**" />
+    <Compile Remove="Quickstart\**" />
+    <Content Remove="Logs\**" />
+    <Content Remove="Quickstart\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <EmbeddedResource Remove="Quickstart\**" />
+    <None Remove="Logs\**" />
+    <None Remove="Quickstart\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="MongoDB.Driver" Version="2.9.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="5.2.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="4.0.0" />
+    <PackageReference Include="Sunedu.Siu.Infrastucture" Version="1.0.1" />
+    <PackageReference Include="Sunedu.Transversal.Security.Auth" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\03 Transversal\AuthZ.Client\AuthZ.Client.csproj" />
+    <ProjectReference Include="..\AuthZ.Domain\AuthZ.Domain.csproj" />
+    <ProjectReference Include="..\AuthZ.Infrastructure\AuthZ.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

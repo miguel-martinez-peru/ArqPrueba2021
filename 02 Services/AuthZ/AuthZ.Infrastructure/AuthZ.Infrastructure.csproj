@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EntityConfigurations\**" />
+    <EmbeddedResource Remove="EntityConfigurations\**" />
+    <None Remove="EntityConfigurations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="AcademicoContext.cs" />
+    <Compile Remove="MediatorExtension.cs" />
+    <Compile Remove="MongoDbRepositories\PermisoRepository.cs" />
+    <Compile Remove="UnitOfWork .cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDbGenericRepository" Version="1.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthZ.Domain\AuthZ.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

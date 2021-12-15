@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AcademicoOds.Api</name>
+    </assembly>
+    <members>
+        <member name="M:AcademicoOds.Api.Controllers.CondicionLaboralController.Listar(AcademicoOds.Api.Application.ViewModels.CondicionLaboralRequestDto)">
+            <summary>
+            Permite consultar los datos de los condiciones laborales desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.DocenteController.ListarDocentes(AcademicoOds.Api.Application.ViewModels.PaginatedItemsRequestViewModel{AcademicoOds.Api.Application.ViewModels.DocenteModel.DocenteRequestDto})">
+            <summary>
+            Permite consultar los datos de los docentes desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.EntidadController.Listar(AcademicoOds.Api.Application.ViewModels.EntidadRequestDto)">
+            <summary>
+            Permite consultar los datos de las entidades desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.IngresanteController.ListarIngresantes(AcademicoOds.Api.Application.ViewModels.PaginatedItemsRequestViewModel{AcademicoOds.Api.Application.ViewModels.IngresanteModel.IngresanteRequestDto})">
+            <summary>
+            Permite consultar los datos de los ingresantes desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.LocalProgramasController.ListarFilial(AcademicoOds.Api.Application.ViewModels.LocalProgramasRequestDto)">
+            <summary>
+            Permite consultar los datos de las filiales desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.LocalProgramasController.ListarLocal(AcademicoOds.Api.Application.ViewModels.LocalProgramasRequestDto)">
+            <summary>
+            Permite consultar los datos de los locales desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.LocalProgramasController.ListarFacultad(AcademicoOds.Api.Application.ViewModels.LocalProgramasRequestDto)">
+            <summary>
+            Permite consultar los datos de las facultades desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.LocalProgramasController.ListarPrograma(AcademicoOds.Api.Application.ViewModels.LocalProgramasRequestDto)">
+            <summary>
+            Permite consultar los datos de los programas desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.MatriculaController.ListarMatriculas(AcademicoOds.Api.Application.ViewModels.PaginatedItemsRequestViewModel{AcademicoOds.Api.Application.ViewModels.MatriculaModel.MatriculaRequestDto})">
+            <summary>
+            Permite consultar los datos de los matriculados desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.ModalidadEstudioController.Listar(AcademicoOds.Api.Application.ViewModels.ModalidadEstudioRequestDto)">
+            <summary>
+            Permite consultar los datos de las modalidades de estudio desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.ModalidadIngresoController.Listar(AcademicoOds.Api.Application.ViewModels.ModalidadIngresoRequestDto)">
+            <summary>
+            Permite consultar los datos de las modalidades de ingreso desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.NivelAcademicoController.Listar(AcademicoOds.Api.Application.ViewModels.NivelAcademicoRequestDto)">
+            <summary>
+            Permite consultar los datos de los niveles academicos desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.PeriodoAcademicoController.Listar(AcademicoOds.Api.Application.ViewModels.PeriodoAcademicoRequestDto)">
+            <summary>
+            Permite consultar los datos de los periodos academicos desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.PeriodoLectivoController.Listar(AcademicoOds.Api.Application.ViewModels.PeriodoLectivoRequestDto)">
+            <summary>
+            Permite consultar los datos de los periodos lectivos desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.ProcesoAdmisionController.Listar(AcademicoOds.Api.Application.ViewModels.ProcesoAdmisionRequestDto)">
+            <summary>
+            Permite consultar los datos de los procesos de admision desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.RegimenDedicacionController.Listar(AcademicoOds.Api.Application.ViewModels.RegimenDedicacionRequestDto)">
+            <summary>
+            Permite consultar los datos de los regimenes de dedicació desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.TipoDocumentoController.Listar(AcademicoOds.Api.Application.ViewModels.TipoDocumentoRequestDto)">
+            <summary>
+            Permite consultar los datos de los tipos de documento desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:AcademicoOds.Api.Controllers.TipoIngresanteController.Listar(AcademicoOds.Api.Application.ViewModels.TipoIngresanteRequestDto)">
+            <summary>
+            Permite consultar los datos de los tipos de ingresantes desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+    </members>
+</doc>

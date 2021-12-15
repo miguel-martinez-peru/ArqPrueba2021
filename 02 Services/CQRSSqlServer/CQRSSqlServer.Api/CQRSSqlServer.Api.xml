@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CQRSSqlServer.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CQRSSqlServer.Api.Controllers.CondicionLaboralController.Listar(CQRSSqlServer.Api.Application.ViewModels.CondicionLaboralRequestDto)">
+            <summary>
+            Permite consultar los datos de los condiciones laborales desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+        <member name="M:CQRSSqlServer.Api.Controllers.DocenteController.ListarDocentes(Core.Pagination.PaginatedItemsRequest{CQRSSqlServer.Api.Application.ViewModels.DocenteModel.DocenteRequestDto})">
+            <summary>
+            Permite consultar los datos de los docentes desde el Academico ODS
+            </summary>
+            <response code="200">Devuelve la lista de resultados de la consulta</response>
+            <response code="400">Si no se indicó la paginación</response>  
+            <response code="404">Si no se encontró resultados</response> 
+        </member>
+    </members>
+</doc>
